@@ -1,0 +1,6 @@
+# Database Connection
+spring:
+ datasource:
+   url: jdbc:mysql://localhost:3306/hbdb
+   username: root
+   password: arindam

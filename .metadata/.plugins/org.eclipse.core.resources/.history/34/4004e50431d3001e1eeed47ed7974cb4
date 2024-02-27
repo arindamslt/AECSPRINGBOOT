@@ -1,0 +1,5 @@
+package com.arindam.entity;
+
+public class Student {
+
+}

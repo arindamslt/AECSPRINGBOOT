@@ -1,0 +1,13 @@
+package com.arindam.bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component(value="cgs")
+public class Category {
+	@Value("PROGRAMMING LANGUAGE")
+private String catgnm;
+	@Autowired
+private Book bks;
+}

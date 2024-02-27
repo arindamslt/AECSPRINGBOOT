@@ -1,0 +1,5 @@
+package com.arindam.exception;
+
+public class ErrorInfo {
+
+}

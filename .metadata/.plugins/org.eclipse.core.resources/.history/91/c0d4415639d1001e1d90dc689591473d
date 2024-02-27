@@ -1,0 +1,15 @@
+order.add.data=ORDER DATA ADDED SUCCESSFULLY
+order.data.delete=DATA DELETED SUCCESSFULLY
+register.add.data=REGISTRATION HAS BEEN DONE SUCCESSFULLY
+server.port=1002
+#Database Connection
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/hbdb
+spring.datasource.username=root
+spring.datasource.password=arindam
+#JPA Details
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+spring.jpa.properties.hibernate.format-sql=true
+

@@ -1,0 +1,9 @@
+package com.arindam.rrepository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.arindam.model.Registration;
+
+public interface RegisterRepo extends JpaRepository<Registration,String> {
+
+}

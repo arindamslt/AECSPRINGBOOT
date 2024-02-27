@@ -1,0 +1,5 @@
+package com.arindam.repository;
+
+public interface StudentRepo {
+
+}

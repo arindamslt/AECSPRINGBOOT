@@ -1,0 +1,276 @@
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  com.arindam.BootLog4jRestApiApplication - Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 4200 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI)
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  com.arindam.BootLog4jRestApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1002 (http)
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 356 ms
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66e28b2a
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-Feb-19 12:40:33 pm [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-Feb-19 12:40:33 pm [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1002"]
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 1002 (http) with context path ''
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  com.arindam.BootLog4jRestApiApplication - Started BootLog4jRestApiApplication in 0.756 seconds (process running for 57.963)
+2024-Feb-19 12:40:33 pm [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-Feb-19 12:44:00 pm [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-Feb-19 12:44:00 pm [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-1002"]
+2024-Feb-19 12:44:00 pm [Thread-7] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-Feb-19 12:44:00 pm [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-1002"]
+2024-Feb-19 12:44:00 pm [Thread-7] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-1002"]
+2024-Feb-19 12:44:00 pm [Thread-7] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-Feb-19 12:44:00 pm [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-Feb-19 12:44:00 pm [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-02-19 12:44:00,213 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 4200 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-19 12:44:00,213 -com.arindam.BootLog4jRestApiApplication [logStarting]- (DEBUG) -Running with Spring Boot v3.1.8, Spring v6.0.16 -
+2024-02-19 12:44:00,214 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-19 12:44:00,388 -org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn]- (INFO) -Bootstrapping Spring Data JPA repositories in DEFAULT mode. -
+2024-02-19 12:44:00,399 -org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn]- (INFO) -Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface. -
+2024-02-19 12:44:00,487 -org.springframework.boot.web.embedded.tomcat.TomcatWebServer [initialize]- (INFO) -Tomcat initialized with port(s): 1002 (http) -
+2024-02-19 12:44:00,488 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Initializing ProtocolHandler ["http-nio-1002"] -
+2024-02-19 12:44:00,488 -org.apache.catalina.core.StandardService [log]- (INFO) -Starting service [Tomcat] -
+2024-02-19 12:44:00,488 -org.apache.catalina.core.StandardEngine [log]- (INFO) -Starting Servlet engine: [Apache Tomcat/10.1.18] -
+2024-02-19 12:44:00,512 -org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [log]- (INFO) -Initializing Spring embedded WebApplicationContext -
+2024-02-19 12:44:00,512 -org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [prepareWebApplicationContext]- (INFO) -Root WebApplicationContext: initialization completed in 297 ms -
+2024-02-19 12:44:00,543 -org.hibernate.jpa.internal.util.LogHelper [logPersistenceUnitInformation]- (INFO) -HHH000204: Processing PersistenceUnitInfo [name: default] -
+2024-02-19 12:44:00,550 -org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [addTransformer]- (INFO) -No LoadTimeWeaver setup: ignoring JPA class transformer -
+2024-02-19 12:44:00,551 -com.zaxxer.hikari.HikariDataSource [getConnection]- (INFO) -HikariPool-3 - Starting... -
+2024-02-19 12:44:00,568 -com.zaxxer.hikari.pool.HikariPool [checkFailFast]- (INFO) -HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f9d78a5 -
+2024-02-19 12:44:00,568 -com.zaxxer.hikari.HikariDataSource [getConnection]- (INFO) -HikariPool-3 - Start completed. -
+2024-02-19 12:44:00,569 -org.hibernate.orm.deprecation [constructDialect]- (WARN) -HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) -
+2024-02-19 12:44:00,595 -org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [initiateService]- (INFO) -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) -
+2024-02-19 12:44:00,608 -org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory]- (INFO) -Initialized JPA EntityManagerFactory for persistence unit 'default' -
+2024-02-19 12:44:00,672 -org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [openEntityManagerInViewInterceptor]- (WARN) -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning -
+2024-02-19 12:44:00,755 -org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [startServer]- (INFO) -LiveReload server is running on port 35729 -
+2024-02-19 12:44:00,763 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Starting ProtocolHandler ["http-nio-1002"] -
+2024-02-19 12:44:00,792 -org.springframework.boot.web.embedded.tomcat.TomcatWebServer [start]- (INFO) -Tomcat started on port(s): 1002 (http) with context path '' -
+2024-02-19 12:44:00,796 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.629 seconds (process running for 264.894) -
+2024-02-19 12:44:00,797 -org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [onApplicationEvent]- (INFO) -Condition evaluation unchanged -
+2024-02-19 12:47:21,222 -org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [onApplicationEvent]- (INFO) -Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) -
+2024-02-19 12:47:21,238 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Pausing ProtocolHandler ["http-nio-1002"] -
+2024-02-19 12:47:21,239 -org.apache.catalina.core.StandardService [log]- (INFO) -Stopping service [Tomcat] -
+2024-02-19 12:47:21,241 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Stopping ProtocolHandler ["http-nio-1002"] -
+2024-02-19 12:47:21,243 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Destroying ProtocolHandler ["http-nio-1002"] -
+2024-02-19 12:47:21,244 -org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [destroy]- (INFO) -Closing JPA EntityManagerFactory for persistence unit 'default' -
+2024-02-19 12:47:21,244 -com.zaxxer.hikari.HikariDataSource [close]- (INFO) -HikariPool-3 - Shutdown initiated... -
+2024-02-19 12:47:21,249 -com.zaxxer.hikari.HikariDataSource [close]- (INFO) -HikariPool-3 - Shutdown completed. -
+2024-02-19 12:47:21,355 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 4200 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-19 12:47:21,356 -com.arindam.BootLog4jRestApiApplication [logStarting]- (DEBUG) -Running with Spring Boot v3.1.8, Spring v6.0.16 -
+2024-02-19 12:47:21,356 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-19 12:47:21,509 -org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn]- (INFO) -Bootstrapping Spring Data JPA repositories in DEFAULT mode. -
+2024-02-19 12:47:21,518 -org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn]- (INFO) -Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface. -
+2024-02-19 12:47:21,590 -org.springframework.boot.web.embedded.tomcat.TomcatWebServer [initialize]- (INFO) -Tomcat initialized with port(s): 1002 (http) -
+2024-02-19 12:47:21,591 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Initializing ProtocolHandler ["http-nio-1002"] -
+2024-02-19 12:47:21,591 -org.apache.catalina.core.StandardService [log]- (INFO) -Starting service [Tomcat] -
+2024-02-19 12:47:21,591 -org.apache.catalina.core.StandardEngine [log]- (INFO) -Starting Servlet engine: [Apache Tomcat/10.1.18] -
+2024-02-19 12:47:21,614 -org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [log]- (INFO) -Initializing Spring embedded WebApplicationContext -
+2024-02-19 12:47:21,614 -org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [prepareWebApplicationContext]- (INFO) -Root WebApplicationContext: initialization completed in 256 ms -
+2024-02-19 12:47:21,645 -org.hibernate.jpa.internal.util.LogHelper [logPersistenceUnitInformation]- (INFO) -HHH000204: Processing PersistenceUnitInfo [name: default] -
+2024-02-19 12:47:21,653 -org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [addTransformer]- (INFO) -No LoadTimeWeaver setup: ignoring JPA class transformer -
+2024-02-19 12:47:21,654 -com.zaxxer.hikari.HikariDataSource [getConnection]- (INFO) -HikariPool-4 - Starting... -
+2024-02-19 12:47:21,669 -com.zaxxer.hikari.pool.HikariPool [checkFailFast]- (INFO) -HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e91887e -
+2024-02-19 12:47:21,669 -com.zaxxer.hikari.HikariDataSource [getConnection]- (INFO) -HikariPool-4 - Start completed. -
+2024-02-19 12:47:21,671 -org.hibernate.orm.deprecation [constructDialect]- (WARN) -HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) -
+2024-02-19 12:47:21,695 -org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [initiateService]- (INFO) -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) -
+2024-02-19 12:47:21,729 -org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory]- (INFO) -Initialized JPA EntityManagerFactory for persistence unit 'default' -
+2024-02-19 12:47:21,795 -org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [openEntityManagerInViewInterceptor]- (WARN) -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning -
+2024-02-19 12:47:21,872 -org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [startServer]- (INFO) -LiveReload server is running on port 35729 -
+2024-02-19 12:47:21,883 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Starting ProtocolHandler ["http-nio-1002"] -
+2024-02-19 12:47:21,889 -org.springframework.boot.web.embedded.tomcat.TomcatWebServer [start]- (INFO) -Tomcat started on port(s): 1002 (http) with context path '' -
+2024-02-19 12:47:21,893 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.582 seconds (process running for 465.991) -
+2024-02-19 12:47:21,894 -org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [onApplicationEvent]- (INFO) -Condition evaluation unchanged -
+2024-02-19 12:48:36,747 -org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [log]- (INFO) -Initializing Spring DispatcherServlet 'dispatcherServlet' -
+2024-02-19 12:48:36,747 -org.springframework.web.servlet.DispatcherServlet [initServletBean]- (INFO) -Initializing Servlet 'dispatcherServlet' -
+2024-02-19 12:48:36,747 -org.springframework.web.servlet.DispatcherServlet [initServletBean]- (INFO) -Completed initialization in 0 ms -
+2024-02-19 12:48:36,900 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED103 -
+2024-02-19 12:54:23,357 -org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [onApplicationEvent]- (INFO) -Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) -
+2024-02-19 12:54:23,373 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Pausing ProtocolHandler ["http-nio-1002"] -
+2024-02-19 12:54:23,374 -org.apache.catalina.core.StandardService [log]- (INFO) -Stopping service [Tomcat] -
+2024-02-19 12:54:23,375 -org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [log]- (INFO) -Destroying Spring FrameworkServlet 'dispatcherServlet' -
+2024-02-19 12:54:23,376 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Stopping ProtocolHandler ["http-nio-1002"] -
+2024-02-19 12:54:23,376 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Destroying ProtocolHandler ["http-nio-1002"] -
+2024-02-19 12:54:23,378 -org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [destroy]- (INFO) -Closing JPA EntityManagerFactory for persistence unit 'default' -
+2024-02-19 12:54:23,384 -com.zaxxer.hikari.HikariDataSource [close]- (INFO) -HikariPool-4 - Shutdown initiated... -
+2024-02-19 12:54:23,389 -com.zaxxer.hikari.HikariDataSource [close]- (INFO) -HikariPool-4 - Shutdown completed. -
+2024-02-19 12:54:23,489 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 4200 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-19 12:54:23,491 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-19 12:54:23,684 -org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn]- (INFO) -Bootstrapping Spring Data JPA repositories in DEFAULT mode. -
+2024-02-19 12:54:23,694 -org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn]- (INFO) -Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface. -
+2024-02-19 12:54:23,774 -org.springframework.boot.web.embedded.tomcat.TomcatWebServer [initialize]- (INFO) -Tomcat initialized with port(s): 1002 (http) -
+2024-02-19 12:54:23,775 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Initializing ProtocolHandler ["http-nio-1002"] -
+2024-02-19 12:54:23,775 -org.apache.catalina.core.StandardService [log]- (INFO) -Starting service [Tomcat] -
+2024-02-19 12:54:23,775 -org.apache.catalina.core.StandardEngine [log]- (INFO) -Starting Servlet engine: [Apache Tomcat/10.1.18] -
+2024-02-19 12:54:23,795 -org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [log]- (INFO) -Initializing Spring embedded WebApplicationContext -
+2024-02-19 12:54:23,796 -org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [prepareWebApplicationContext]- (INFO) -Root WebApplicationContext: initialization completed in 303 ms -
+2024-02-19 12:54:23,828 -org.hibernate.jpa.internal.util.LogHelper [logPersistenceUnitInformation]- (INFO) -HHH000204: Processing PersistenceUnitInfo [name: default] -
+2024-02-19 12:54:23,836 -org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [addTransformer]- (INFO) -No LoadTimeWeaver setup: ignoring JPA class transformer -
+2024-02-19 12:54:23,837 -com.zaxxer.hikari.HikariDataSource [getConnection]- (INFO) -HikariPool-5 - Starting... -
+2024-02-19 12:54:23,854 -com.zaxxer.hikari.pool.HikariPool [checkFailFast]- (INFO) -HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a15b495 -
+2024-02-19 12:54:23,854 -com.zaxxer.hikari.HikariDataSource [getConnection]- (INFO) -HikariPool-5 - Start completed. -
+2024-02-19 12:54:23,879 -org.hibernate.orm.deprecation [constructDialect]- (WARN) -HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) -
+2024-02-19 12:54:23,903 -org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [initiateService]- (INFO) -HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) -
+2024-02-19 12:54:23,915 -org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory]- (INFO) -Initialized JPA EntityManagerFactory for persistence unit 'default' -
+2024-02-19 12:54:23,989 -org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [openEntityManagerInViewInterceptor]- (WARN) -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning -
+2024-02-19 12:54:24,089 -org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [startServer]- (INFO) -LiveReload server is running on port 35729 -
+2024-02-19 12:54:24,102 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Starting ProtocolHandler ["http-nio-1002"] -
+2024-02-19 12:54:24,107 -org.springframework.boot.web.embedded.tomcat.TomcatWebServer [start]- (INFO) -Tomcat started on port(s): 1002 (http) with context path '' -
+2024-02-19 12:54:24,111 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.669 seconds (process running for 888.209) -
+2024-02-19 12:54:24,112 -org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [onApplicationEvent]- (INFO) -Condition evaluation unchanged -
+2024-02-19 12:54:40,690 -org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [log]- (INFO) -Initializing Spring DispatcherServlet 'dispatcherServlet' -
+2024-02-19 12:54:40,690 -org.springframework.web.servlet.DispatcherServlet [initServletBean]- (INFO) -Initializing Servlet 'dispatcherServlet' -
+2024-02-19 12:54:40,690 -org.springframework.web.servlet.DispatcherServlet [initServletBean]- (INFO) -Completed initialization in 0 ms -
+2024-02-19 12:54:40,737 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED104 -
+2024-02-19 13:03:05,033 -org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [onApplicationEvent]- (INFO) -Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) -
+2024-02-19 13:03:05,049 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Pausing ProtocolHandler ["http-nio-1002"] -
+2024-02-19 13:03:05,050 -org.apache.catalina.core.StandardService [log]- (INFO) -Stopping service [Tomcat] -
+2024-02-19 13:03:05,050 -org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [log]- (INFO) -Destroying Spring FrameworkServlet 'dispatcherServlet' -
+2024-02-19 13:03:05,052 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Stopping ProtocolHandler ["http-nio-1002"] -
+2024-02-19 13:03:05,053 -org.apache.coyote.http11.Http11NioProtocol [log]- (INFO) -Destroying ProtocolHandler ["http-nio-1002"] -
+2024-02-19 13:03:05,055 -org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [destroy]- (INFO) -Closing JPA EntityManagerFactory for persistence unit 'default' -
+2024-02-19 13:03:05,055 -com.zaxxer.hikari.HikariDataSource [close]- (INFO) -HikariPool-5 - Shutdown initiated... -
+2024-02-19 13:03:05,060 -com.zaxxer.hikari.HikariDataSource [close]- (INFO) -HikariPool-5 - Shutdown completed. -
+2024-02-19 13:03:05,151 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 4200 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-19 13:03:05,152 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-19 13:03:05,697 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.587 seconds (process running for 1409.796) -
+2024-02-19 13:03:18,361 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED105 -
+2024-02-19 13:13:50,478 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 4200 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-19 13:13:50,479 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-19 13:13:50,991 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.549 seconds (process running for 2055.088) -
+2024-02-19 13:14:00,910 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED107 -
+2024-02-19 21:22:04,165 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 21048 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-19 21:22:04,172 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-19 21:22:07,084 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 3.231 seconds (process running for 4.339) -
+2024-02-19 21:24:30,429 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 21048 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-19 21:24:30,429 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-19 21:24:31,031 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.641 seconds (process running for 148.287) -
+2024-02-20 10:07:57,842 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 17140 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-20 10:07:57,848 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-20 10:08:00,816 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 3.239 seconds (process running for 4.14) -
+2024-02-20 11:14:33,096 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED108 -
+2024-02-20 11:18:19,480 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED109 -
+2024-02-20 12:00:16,529 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 4564 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-20 12:00:16,536 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-20 12:00:19,715 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 3.509 seconds (process running for 4.619) -
+2024-02-20 13:12:23,494 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 4564 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-20 13:12:23,495 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-20 13:12:24,123 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.673 seconds (process running for 4329.026) -
+2024-02-20 13:17:44,346 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED105 -
+2024-02-20 13:19:07,909 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED106 -
+2024-02-20 13:20:11,031 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED107 -
+2024-02-21 09:45:59,824 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 09:45:59,831 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 09:46:03,362 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 3.866 seconds (process running for 4.906) -
+2024-02-21 09:49:17,377 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 09:49:17,378 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 09:49:17,979 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.643 seconds (process running for 199.522) -
+2024-02-21 09:51:35,767 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 09:51:35,767 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 09:51:36,393 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.663 seconds (process running for 337.936) -
+2024-02-21 09:52:10,209 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 09:52:10,209 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 09:52:10,714 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.538 seconds (process running for 372.257) -
+2024-02-21 09:52:46,880 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 09:52:46,880 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 09:52:47,432 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.586 seconds (process running for 408.975) -
+2024-02-21 09:53:06,249 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 09:53:06,249 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 09:53:06,761 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.546 seconds (process running for 428.304) -
+2024-02-21 09:56:25,490 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 09:56:25,490 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 09:56:25,975 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.52 seconds (process running for 627.518) -
+2024-02-21 09:56:53,982 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 09:56:53,983 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 09:56:54,496 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.547 seconds (process running for 656.039) -
+2024-02-21 10:01:47,915 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 10:01:47,916 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 10:01:48,412 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.527 seconds (process running for 949.955) -
+2024-02-21 10:02:42,064 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 10:02:42,064 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 10:02:42,534 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.501 seconds (process running for 1004.077) -
+2024-02-21 10:04:32,262 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 10:04:32,263 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 10:04:32,757 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.524 seconds (process running for 1114.3) -
+2024-02-21 11:14:18,249 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 11:14:18,249 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 11:14:19,150 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.936 seconds (process running for 5300.693) -
+2024-02-21 11:15:51,499 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 11:15:51,501 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 11:15:52,025 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.557 seconds (process running for 5393.568) -
+2024-02-21 11:19:57,657 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 6888 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 11:19:57,658 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 11:19:58,314 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.693 seconds (process running for 5639.857) -
+2024-02-21 20:25:46,339 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 7380 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 20:25:46,346 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 20:25:49,676 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 3.617 seconds (process running for 4.472) -
+2024-02-21 20:51:56,686 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED107 -
+2024-02-21 21:40:05,322 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 3328 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 21:40:05,326 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 21:40:08,780 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 3.807 seconds (process running for 4.85) -
+2024-02-21 21:42:27,256 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 3328 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 21:42:27,256 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 21:42:27,891 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.675 seconds (process running for 143.961) -
+2024-02-21 21:44:51,539 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 3328 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 21:44:51,540 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 21:44:52,099 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.596 seconds (process running for 288.169) -
+2024-02-21 21:45:52,994 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 3328 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 21:45:52,994 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 21:45:53,551 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.59 seconds (process running for 349.62) -
+2024-02-21 21:48:05,977 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 3328 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 21:48:05,978 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 21:48:06,528 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.585 seconds (process running for 482.598) -
+2024-02-21 21:50:00,417 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 3328 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 21:50:00,417 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 21:50:00,983 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.596 seconds (process running for 597.052) -
+2024-02-21 21:51:26,453 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 3328 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 21:51:26,453 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 21:51:27,018 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.598 seconds (process running for 683.088) -
+2024-02-21 21:54:07,620 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED108 -
+2024-02-21 21:54:39,603 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 3328 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-21 21:54:39,604 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-21 21:54:40,235 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.671 seconds (process running for 876.304) -
+2024-02-21 21:55:11,811 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED109 -
+2024-02-22 09:49:18,347 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 10824 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-22 09:49:18,350 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-22 09:49:22,610 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 4.642 seconds (process running for 5.857) -
+2024-02-22 09:54:44,621 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 10824 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-22 09:54:44,622 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-22 09:54:45,056 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.466 seconds (process running for 328.303) -
+2024-02-22 10:02:21,808 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 10824 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-22 10:02:21,808 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-22 10:02:22,179 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.399 seconds (process running for 785.426) -
+2024-02-22 10:03:01,281 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED111 -
+2024-02-22 10:09:10,468 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 10824 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-22 10:09:10,469 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-22 10:09:10,833 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.39 seconds (process running for 1194.08) -
+2024-02-22 10:09:28,631 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 10824 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-22 10:09:28,631 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-22 10:09:28,986 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.382 seconds (process running for 1212.233) -
+2024-02-22 10:10:47,072 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 10824 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-22 10:10:47,072 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-22 10:10:47,464 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.42 seconds (process running for 1290.711) -
+2024-02-22 10:12:53,235 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 10824 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-22 10:12:53,235 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-22 10:12:53,574 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.363 seconds (process running for 1416.821) -
+2024-02-22 10:15:09,663 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 10824 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-22 10:15:09,664 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-22 10:15:10,007 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.368 seconds (process running for 1553.255) -
+2024-02-22 10:15:49,202 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 10824 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-22 10:15:49,203 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-22 10:15:49,517 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 0.338 seconds (process running for 1592.765) -
+2024-02-22 10:20:55,144 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED112 -
+2024-02-22 12:46:25,281 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED120 -
+2024-02-22 12:49:07,837 -com.arindam.controller.OrderController [addData]- (INFO) -DATA ADDED121 -
+2024-02-23 09:59:39,027 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 22808 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-23 09:59:39,029 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-23 09:59:42,100 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 3.33 seconds (process running for 4.063) -
+2024-02-23 10:42:04,268 -com.arindam.BootLog4jRestApiApplication [logStarting]- (INFO) -Starting BootLog4jRestApiApplication using Java 17.0.8.1 with PID 11640 (C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI\target\classes started by arins in C:\AEC_BOOT_PRACTICAL\BootLog4jRestAPI) -
+2024-02-23 10:42:04,271 -com.arindam.BootLog4jRestApiApplication [logStartupProfileInfo]- (INFO) -No active profile set, falling back to 1 default profile: "default" -
+2024-02-23 10:42:06,923 -com.arindam.BootLog4jRestApiApplication [logStarted]- (INFO) -Started BootLog4jRestApiApplication in 2.877 seconds (process running for 3.545) -

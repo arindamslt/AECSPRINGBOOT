@@ -1,0 +1,55 @@
+package com.arindam;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.arindam.model.Student;
+import com.arindam.service.StudentService;
+
+@SpringBootApplication
+public class SpringDataJpaDemoApplication implements CommandLineRunner {
+	@Autowired
+StudentService sservice;
+	public static void main(String[] args)  {
+		SpringApplication.run(SpringDataJpaDemoApplication.class, args);
+	}
+	@Override
+	public void run(String... args) throws Exception {
+		// TODO Auto-generated method stub
+		Student sd1=new Student("1","ROBIN","CSE");
+		Student sd2=new Student("2","ROBINA","IT");
+		//sservice.addData(sd1);
+		sservice.addData(sd2);
+		System.out.println("FETCHING ALL DATA====");
+		List<Student> slist=sservice.getData();
+		slist.stream().forEach(System.out::println);
+		//System.out.println("DELETE DATA=======");
+		//sservice.deleteData("2");
+		System.out.println("FETCHING ALL DATA====");
+		List<Student> slist1=sservice.getData();
+		slist1.stream().forEach(System.out::println);
+		System.out.println("UPDATE DATA============");
+		Student sd3=new Student();
+		sd3.setSname("SUMANA");
+		sd3.setSdept("BCA");
+		Student sd4=sservice.updateData("1", sd3);
+		System.out.println(sd4);
+		System.out.println("FETCHING DATA BASED ON ROLLNO");
+		Student sds=sservice.fetchDataByRollno("2");
+		System.out.println(sds);
+		System.out.println("DISPLAY ROLLNO AND NAME");
+		List<Object[]> sdata=sservice.getRollnoName();
+		sdata.stream().map(s->s[0]+"===>"+s[1]).forEach(System.out::println);
+		System.out.println("DISPLAY DATA BY DEPARTMENT NAME");
+		Student sddata=sservice.getDataByDept("IT");
+		System.out.println(sddata);
+		System.out.println("DATA BASED ON NAME");
+		Student snamedata=sservice.findBySname("ROBINA");
+		System.out.println(snamedata);
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.arindam.config;
+
+public class SpringConfig {
+
+}
